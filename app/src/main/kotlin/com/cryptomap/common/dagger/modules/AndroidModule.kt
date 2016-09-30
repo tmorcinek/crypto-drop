@@ -22,16 +22,4 @@ class AndroidModule(private val application: Application) {
     fun provideApplicationContext(): Context {
         return application
     }
-
-    @Singleton
-    @Provides
-    fun provideSharedPreferences(): SharedPreferences {
-        return PreferenceManager.getDefaultSharedPreferences(application)
-    }
-
-    @Provides
-    @Singleton
-    fun providePreferencesHelper(sharedPreferences: SharedPreferences): PreferencesHelper {
-        return PreferencesHelper(sharedPreferences)
-    }
 }

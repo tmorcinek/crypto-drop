@@ -1,8 +1,8 @@
 package com.cryptomap.common.dagger
 
-import com.cryptomap.HomeActivity
 import com.cryptomap.common.dagger.modules.AndroidModule
 import com.cryptomap.common.dagger.modules.FirebaseModule
+import com.cryptomap.home.HomeActivity
 import dagger.Component
 import javax.inject.Singleton
 
