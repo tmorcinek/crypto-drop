@@ -1,0 +1,3 @@
+[submodule "androidutils"]
+	path = androidutils
+	url = https://github.com/tmorcinek/androidutils.git
