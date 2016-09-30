@@ -1,4 +1,4 @@
-package com.cryptomap.cryptomap;
+package com.cryptomap;
 
 import org.junit.Test;
 
