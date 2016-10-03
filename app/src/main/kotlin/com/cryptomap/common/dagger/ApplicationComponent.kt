@@ -1,5 +1,6 @@
 package com.cryptomap.common.dagger
 
+import com.cryptomap.note.NoteActivity
 import com.cryptomap.common.dagger.modules.AndroidModule
 import com.cryptomap.common.dagger.modules.FirebaseModule
 import com.cryptomap.home.HomeActivity
@@ -14,5 +15,5 @@ import javax.inject.Singleton
 interface ApplicationComponent {
 
     fun inject(homeActivity: HomeActivity)
-    //    fun inject(splashActivity: SplashActivity)
+    fun inject(noteActivity: NoteActivity)
 }
